@@ -1,23 +1,22 @@
-import logo from './logo.svg';
+import logo from './nw-detail-icon.png';
 import './App.css';
+import About from './About';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <div className="image-box">
+          <img
+            src={logo}
+            className="nwd-logo"
+            alt="logo"
+            style={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }}
+          />
+          <div className="nwd-title"></div>
+        </div>
       </header>
+      <About />
     </div>
   );
 }
