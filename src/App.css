@@ -26,6 +26,10 @@
   height: 40vmin;
   pointer-events: none;
   border-radius: 50px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
 }
 
 .nwd-title {
