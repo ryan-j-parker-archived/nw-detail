@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 518.22222 288.73828">
+  <defs>
+    <style>
+      .cls-1 {
+        font-family: AdornSBanners, 'AdornS Banners';
+        font-size: 80px;
+      }
+
+      .cls-1, .cls-2 {
+        fill: #ffcc3e;
+      }
+
+      .cls-3 {
+        letter-spacing: -.00699em;
+      }
+
+      .cls-4 {
+        letter-spacing: -.0542em;
+      }
+
+      .cls-5 {
+        letter-spacing: -.01em;
+      }
+
+      .cls-6 {
+        letter-spacing: -.021em;
+      }
+
+      .cls-7 {
+        letter-spacing: -.04688em;
+      }
+
+      .cls-2 {
+        font-family: FranklinGothic-Medium, 'Franklin Gothic Medium';
+        font-size: 22px;
+        font-weight: 500;
+      }
+
+      .cls-8 {
+        font-family: ProximaNova-Bold, 'Proxima Nova';
+        font-size: 76px;
+        font-weight: 700;
+      }
+
+      .cls-8, .cls-9 {
+        fill: #fff;
+      }
+
+      .cls-10 {
+        letter-spacing: -.00977em;
+      }
+
+      .cls-9 {
+        font-family: FranklinGothic-Demi, 'Franklin Gothic Demi';
+        font-size: 83px;
+        font-weight: 300;
+      }
+    </style>
+  </defs>
+  <g id="Rounded_Rectangle" data-name="Rounded Rectangle">
+    <rect width="512" height="256" rx="37.88889" ry="37.88889"/>
+  </g>
+  <g id="Text">
+    <text class="cls-8" transform="translate(23.59424 84.58008)"><tspan x="0" y="0">NO</tspan><tspan class="cls-5" x="113.54346" y="0">R</tspan><tspan x="161.65088" y="0">THWE</tspan><tspan class="cls-3" x="375.51221" y="0">S</tspan><tspan x="420.58057" y="0">T</tspan></text>
+    <text class="cls-1" transform="translate(19.50249 217.61755)"><tspan x="0" y="0">j222222k</tspan></text>
+    <text class="cls-9" transform="translate(63.45459 155.91624)"><tspan x="0" y="0">DE</tspan><tspan class="cls-7" x="101.11572" y="0">T</tspan><tspan x="137.8335" y="0">AILING</tspan></text>
+    <text class="cls-2" transform="translate(128.35845 204.96262)"><tspan x="0" y="0">MOBILE B</tspan><tspan class="cls-6" x="92.64062" y="0">O</tspan><tspan class="cls-4" x="106.33691" y="0">A</tspan><tspan x="118.41113" y="0">T &amp; </tspan><tspan class="cls-10" x="155.81494" y="0">R</tspan><tspan x="169.73682" y="0">V SE</tspan><tspan class="cls-10" x="211.50244" y="0">R</tspan><tspan x="225.42432" y="0">VICE</tspan></text>
+  </g>
+</svg>

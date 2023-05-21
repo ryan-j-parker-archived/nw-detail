@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 518.22 288.74">
+  <defs>
+    <style>
+      .cls-1 {
+        font-family: AdornSBanners, 'AdornS Banners';
+        font-size: 80px;
+      }
+
+      .cls-1, .cls-2 {
+        fill: #ffcc3e;
+      }
+
+      .cls-3 {
+        letter-spacing: 0em;
+      }
+
+      .cls-4 {
+        letter-spacing: -.05em;
+      }
+
+      .cls-5 {
+        letter-spacing: 0em;
+      }
+
+      .cls-6 {
+        letter-spacing: -.02em;
+      }
+
+      .cls-7 {
+        letter-spacing: -.05em;
+      }
+
+      .cls-2 {
+        font-family: FranklinGothic-Medium, 'Franklin Gothic Medium';
+        font-size: 22px;
+        font-weight: 500;
+      }
+
+      .cls-8 {
+        font-family: ProximaNova-Bold, 'Proxima Nova';
+        font-size: 76px;
+        font-weight: 700;
+      }
+
+      .cls-8, .cls-9 {
+        fill: #fff;
+      }
+
+      .cls-10 {
+        letter-spacing: 0em;
+      }
+
+      .cls-9 {
+        font-family: FranklinGothic-Demi, 'Franklin Gothic Demi';
+        font-size: 83px;
+        font-weight: 300;
+      }
+    </style>
+  </defs>
+  <g id="Rounded_Rectangle" data-name="Rounded Rectangle">
+    <rect width="512" height="256" rx="37.89" ry="37.89"/>
+  </g>
+  <g id="Text">
+    <text class="cls-8" transform="translate(23.59 84.58)"><tspan x="0" y="0">NO</tspan><tspan class="cls-5" x="113.54" y="0">R</tspan><tspan x="161.65" y="0">THWE</tspan><tspan class="cls-3" x="375.51" y="0">S</tspan><tspan x="420.58" y="0">T</tspan></text>
+    <text class="cls-1" transform="translate(19.5 217.62)"><tspan x="0" y="0">j222222k</tspan></text>
+    <text class="cls-9" transform="translate(63.45 155.92)"><tspan x="0" y="0">DE</tspan><tspan class="cls-7" x="101.12" y="0">T</tspan><tspan x="137.83" y="0">AILING</tspan></text>
+    <text class="cls-2" transform="translate(128.36 204.96)"><tspan x="0" y="0">MOBILE B</tspan><tspan class="cls-6" x="92.64" y="0">O</tspan><tspan class="cls-4" x="106.34" y="0">A</tspan><tspan x="118.41" y="0">T &amp; </tspan><tspan class="cls-10" x="155.81" y="0">R</tspan><tspan x="169.74" y="0">V SE</tspan><tspan class="cls-10" x="211.5" y="0">R</tspan><tspan x="225.42" y="0">VICE</tspan></text>
+  </g>
+</svg>

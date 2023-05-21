@@ -22,7 +22,7 @@
   font-family: 'Bree Serif', sans-serif;
 }
 
-.nwd-logo {
+/* .nwd-logo {
   height: 40vmin;
   pointer-events: none;
   border-radius: 50px;
@@ -30,7 +30,7 @@
   top: 0;
   left: 0;
   z-index: 1;
-}
+} */
 
 .nwd-title {
   /* position: fixed;
@@ -132,4 +132,61 @@
   100% {
     transform: rotate(360deg);
   }
+}
+
+.cls-1 {
+  font-family: AdornSBanners, 'AdornS Banners';
+  font-size: 80px;
+}
+
+.cls-1,
+.cls-2 {
+  fill: #ffcc3e;
+}
+
+.cls-3 {
+  letter-spacing: 0em;
+}
+
+.cls-4 {
+  letter-spacing: -0.05em;
+}
+
+.cls-5 {
+  letter-spacing: 0em;
+}
+
+.cls-6 {
+  letter-spacing: -0.02em;
+}
+
+.cls-7 {
+  letter-spacing: -0.05em;
+}
+
+.cls-2 {
+  font-family: FranklinGothic-Medium, 'Franklin Gothic Medium';
+  font-size: 22px;
+  font-weight: 500;
+}
+
+.cls-8 {
+  font-family: ProximaNova-Bold, 'Proxima Nova';
+  font-size: 76px;
+  font-weight: 700;
+}
+
+.cls-8,
+.cls-9 {
+  fill: #fff;
+}
+
+.cls-10 {
+  letter-spacing: 0em;
+}
+
+.cls-9 {
+  font-family: FranklinGothic-Demi, 'Franklin Gothic Demi';
+  font-size: 83px;
+  font-weight: 300;
 }

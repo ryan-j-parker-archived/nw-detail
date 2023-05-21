@@ -2,21 +2,17 @@ import logo from './nw-detail-icon.png';
 import './App.css';
 import About from './About';
 import React from 'react';
-import logosvg from './images/nw-detail-scroll-banner.svg';
-import logo2 from './images/nw-detail2.png';
+import logosvg from './nw-detail-scroll-banner2.svg';
+import logo2 from './nw-detail2.svg';
+import logoFix from './nw-detail-fix.png';
+import nwDetailLogo from './nw-detail-fix.svg';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
         <div className="image-box">
-          <img
-            // src={logo}
-
-            className="nwd-logo"
-            alt="logo"
-            style={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }}
-          />
+          <img src={logosvg} />
           <div className="nwd-title"></div>
         </div>
       </header>
