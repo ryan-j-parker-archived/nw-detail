@@ -1,0 +1,11 @@
+.ceramic {
+  padding: 2em;
+  margin: 0 auto;
+  width: 50vw;
+  text-align: center;
+  border: 0.5px dotted blue;
+}
+
+.ceramic-text {
+  border: 0.5px dotted blue;
+}

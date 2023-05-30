@@ -1,0 +1,38 @@
+.about {
+  color: white;
+  /* position: relative; */
+  width: -moz-fit-content;
+  width: fit-content;
+  /* top: 60px; */
+  /* right: 5vw; */
+  margin: 0 auto;
+  /* margin-left: 50vw; */
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  font-size: 1em;
+  max-width: 50vw;
+
+  border: 0.5px dotted blue;
+}
+
+.nwd {
+  font-size: 1.8rem;
+  font-weight: 600;
+  margin: 20px auto;
+  border: 0.5px dotted orangered;
+}
+
+.welcome {
+  border: 0.5px dotted coral;
+}
+
+.call {
+  margin: 20px auto;
+  border: 0.5px dotted mediumpurple;
+}
+
+.nwd {
+  transform: rotate(0deg);
+  /* animation: rotateAround 5s linear infinite; */
+}

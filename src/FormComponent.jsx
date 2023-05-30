@@ -26,18 +26,18 @@ function FormComponent() {
         <label>Phone</label>
         <input type="tel" format="(###) ###-####" name="client_phone" required />
         <label>Vehicle type</label>
-        {/* <div className="radio-group"> */}
-        <label>RV</label>
-        <input type="radio" name="vehicle_type" value="RV" required>
-          {/* RV */}
-        </input>
-        <label>Boat</label>
-        <input type="radio" name="vehicle_type" value="Boat" required>
-          {/* Boat */}
-        </input>
-        {/* </div> */}
+        <div className="radio-box">
+          <div className="RV">
+            <label>RV</label>
+            <input type="radio" name="vehicle_type" value="RV" required />
+          </div>
+          <div className="Boat">
+            <label>Boat</label>
+            <input type="radio" name="vehicle_type" value="Boat" required />
+          </div>
+        </div>
         <label>Vehicle length</label>
-        <input type="number" name="vehicle_length" required />
+        <input type="number" name="vehicle_length" required></input>
         <input type="submit" value="Send" />
       </form>
     </div>

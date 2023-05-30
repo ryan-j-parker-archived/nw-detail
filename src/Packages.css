@@ -1,0 +1,20 @@
+.packages {
+  color: white;
+  width: 50vw;
+  margin: 0 auto;
+  text-align: center;
+  border: 0.5px dotted hotpink;
+}
+
+.detail {
+  color: white;
+  width: 50vw;
+  margin: 0 auto;
+  text-align: center;
+  border: 0.5px dotted yellow;
+}
+
+.package-list {
+  color: white;
+  border: 0.5px dotted green;
+}

@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap');
 
+@font-face {
+  font-family: 'AdornBanners';
+  src: url('/public/AdornBanners.ttf');
+}
+
 :root {
   --red: #ff101f;
   --orange: #f49f0a;
@@ -17,9 +22,10 @@
 .App {
   text-align: center;
   background: #161516;
-  height: 100vh;
-  width: 100vw;
+  /* height: 100vh; */
   font-family: 'Bree Serif', sans-serif;
+  /* overflow-x: hidden; */
+  box-sizing: border-box;
 }
 
 /* .nwd-logo {
@@ -63,7 +69,7 @@
   margin-left: 0;
   top: 10px;
   left: 10px;
-  width: 100%;
+  /* width: 100%; */
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -94,37 +100,6 @@
   }
 }
 
-.about {
-  color: white;
-  /* position: relative; */
-  z-index: 14;
-  width: -moz-fit-content;
-  width: fit-content;
-  top: 60px;
-  right: 5vw;
-  margin: 0 auto;
-  margin-left: 50vw;
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  font-size: 1em;
-}
-
-.nwd {
-  font-size: 1.8rem;
-  font-weight: 600;
-  margin: 20px auto;
-}
-
-.call {
-  margin: 20px auto;
-}
-
-.nwd {
-  transform: rotate(0deg);
-  /* animation: rotateAround 5s linear infinite; */
-}
-
 @keyframes rotateAround {
   0% {
     transform: rotate(0deg);
@@ -135,7 +110,7 @@
 }
 
 .cls-1 {
-  font-family: AdornSBanners, 'AdornS Banners';
+  font-family: AdornBanners, 'AdornBanners';
   font-size: 80px;
 }
 
@@ -189,4 +164,67 @@
   font-family: FranklinGothic-Demi, 'Franklin Gothic Demi';
   font-size: 83px;
   font-weight: 300;
+}
+
+.specialize,
+.spec,
+.specialties {
+  color: white;
+  width: 50vw;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.packages,
+.detail,
+.package-list {
+  color: white;
+}
+
+.ceramic {
+  color: white;
+}
+
+.footer,
+.reference,
+.contact {
+  color: white;
+  width: 50vw;
+  margin: 0 auto;
+  text-align: center;
+}
+
+ul li {
+  position: relative;
+  text-align: left;
+  left: 50px;
+}
+
+.logo-box {
+  margin: 20px;
+}
+
+.logo {
+  height: auto;
+  /* width: 35vw; */
+  /* width: auto; */
+  width: 100%;
+
+  border: 0.5px dotted purple;
+}
+
+/* .top-box {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: auto;
+
+  border: 0.25px dotted pink;
+} */
+
+.bottom-box {
+  /* display: grid; */
+  /* grid-template-columns: 1fr 1fr; */
+  margin: auto;
+
+  border: 0.25px dotted pink;
 }

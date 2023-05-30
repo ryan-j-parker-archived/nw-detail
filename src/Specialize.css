@@ -1,0 +1,17 @@
+.specialize {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.spec {
+    border: 0.5px dotted brown;
+}
+
+.specialties {
+    border: 0.5px dotted orange;
+
+}

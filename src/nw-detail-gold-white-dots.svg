@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 288">
+  <defs>
+    <style>
+      .cls-1 {
+        font-size: 76px;
+      }
+
+      .cls-1, .cls-2 {
+        fill: #fff;
+      }
+
+      .cls-1, .cls-3 {
+        font-family: AureaUltra-Roman, AureaUltra;
+      }
+
+      .cls-4 {
+        letter-spacing: -.01999em;
+      }
+
+      .cls-5, .cls-6, .cls-7, .cls-8, .cls-3 {
+        fill: #fdd017;
+      }
+
+      .cls-6 {
+        letter-spacing: -.00928em;
+      }
+
+      .cls-2 {
+        font-family: AdornSBanners, 'AdornS Banners';
+        font-size: 60px;
+      }
+
+      .cls-7 {
+        letter-spacing: .00879em;
+      }
+
+      .cls-9 {
+        font-family: Calibri-Bold, Calibri;
+        font-size: 28px;
+        font-weight: 700;
+      }
+
+      .cls-10 {
+        letter-spacing: -.03999em;
+      }
+
+      .cls-8 {
+        letter-spacing: -.01221em;
+      }
+
+      .cls-3 {
+        font-size: 110px;
+      }
+
+      .cls-11 {
+        letter-spacing: -.00998em;
+      }
+
+      .cls-12 {
+        letter-spacing: -.01999em;
+      }
+
+      .cls-13 {
+        letter-spacing: -.01em;
+      }
+
+      .cls-14 {
+        letter-spacing: -.00001em;
+      }
+
+      .cls-15 {
+        fill: #f2f2f2;
+      }
+
+      .cls-16 {
+        letter-spacing: -.00999em;
+      }
+    </style>
+  </defs>
+  <g id="Rounded_Rectangle" data-name="Rounded Rectangle">
+    <rect width="560" height="288" rx="90" ry="90"/>
+  </g>
+  <g id="Mobile_Boat_RV_Service" data-name="Mobile Boat &amp;amp; RV Service">
+    <text class="cls-9" transform="translate(94.31543 223.38292)"><tspan class="cls-15" x="0" y="0">:::: </tspan><tspan class="cls-5" x="37.22852" y="0">Mobile Bo</tspan><tspan class="cls-6" x="156.70703" y="0">a</tspan><tspan class="cls-5" x="170.26953" y="0">t &amp; </tspan><tspan class="cls-8" x="212.36523" y="0">R</tspan><tspan class="cls-5" x="227.78711" y="0">V Se</tspan><tspan class="cls-7" x="278.00391" y="0">r</tspan><tspan class="cls-5" x="288.20312" y="0">vice </tspan><tspan class="cls-15" x="340.4707" y="0">::::</tspan></text>
+  </g>
+  <g id="Banners">
+    <text class="cls-2" transform="translate(37.95996 229.75206)"><tspan x="0" y="0">j2222222222k</tspan></text>
+  </g>
+  <g id="Northwest">
+    <text class="cls-1" transform="translate(24.03418 96.93221)"><tspan class="cls-12" x="0" y="0">NO</tspan><tspan class="cls-10" x="110.35254" y="0">R</tspan><tspan x="165.37695" y="0">THWE</tspan><tspan class="cls-11" x="416.32422" y="0">S</tspan><tspan class="cls-14" x="458.50488" y="0">T </tspan></text>
+  </g>
+  <g id="Detailing">
+    <text class="cls-3" transform="translate(7.42285 165.73202)"><tspan x="0" y="0">D</tspan><tspan class="cls-4" x="85.68896" y="0">e</tspan><tspan x="147.83936" y="0">ta</tspan><tspan class="cls-16" x="266.52686" y="0">i</tspan><tspan x="309.31641" y="0">l</tspan><tspan class="cls-13" x="353.20508" y="0">in</tspan><tspan x="475.96484" y="0">g</tspan></text>
+  </g>
+</svg>
