@@ -68,8 +68,11 @@ export default function ImageCarousel() {
   }, [sourceIndex]);
 
   return (
-    <div className="image-box">
-      <img className="images" src={images[sourceIndex]} alt="carousel" />
-    </div>
+    <>
+      <p className="previous-work">:::: previous work ::::</p>
+      <div className="image-box">
+        <img className="images" src={images[sourceIndex]} alt="carousel" />
+      </div>
+    </>
   );
 }

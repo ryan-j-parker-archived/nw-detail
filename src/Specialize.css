@@ -1,4 +1,4 @@
-.specialize {
+/* .specialize {
   width: 100%;
   height: 100%;
   display: flex;
@@ -14,4 +14,32 @@
 .specialties {
     border: 0.5px dotted orange;
 
+} */
+
+.spec-card {
+  width: -moz-fit-content;
+  width: fit-content;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  position: relative;
+  padding: 10px 20px;
+  /* margin: 20px; */
+  left: 50%;
+  transform: translateX(-50%);
+  border: 1px solid #000;
+  border-radius: 5px;
+  box-shadow: 3px 3px 12px -4px #fff;
+  background: #fdd017;
+}
+
+.spec-card-title {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.spec-card-details {
+  list-style-type: none;
+  padding: 0;
 }

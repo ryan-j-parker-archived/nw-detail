@@ -15,6 +15,7 @@ import Ceramic from './Ceramic';
 import FooterContact from './FooterContact';
 import Navbar from './Navbar';
 import ImageCarousel from './ImageCarousel';
+import RestoreReady from './RestoreReady';
 
 function App() {
   return (
@@ -30,7 +31,9 @@ function App() {
         <div className="logo-box">
           <Logo />
         </div>
+        <div className="line" />
         <About />
+        <RestoreReady />
       </div>
       <div className="bottom-box">
         <ImageCarousel />

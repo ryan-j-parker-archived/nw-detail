@@ -1,4 +1,4 @@
-.packages {
+/* .packages {
   color: white;
   width: 50vw;
   margin: 0 auto;
@@ -17,4 +17,51 @@
 .package-list {
   color: white;
   border: 0.5px dotted green;
+} */
+
+.card-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.card {
+  border: 1px solid #000;
+  background: #000;
+  color: #fff;
+  padding: 15px;
+  margin: 10px;
+  width: 300px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.card-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.card-priceRange {
+  margin-bottom: 10px;
+}
+
+.card-details {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.price {
+  /* Add your specific styles for price */
+  color: red;
+  font-weight: bold;
+}
+
+.remaining-text {
+  /* Add your specific styles for the remaining text */
+  color: blue;
 }

@@ -1,15 +1,16 @@
 .footer {
-    border: 0.5px dotted magenta;
-    padding: 2em;
-    margin: 0 auto;
-    width: 50vw;
-    text-align: center;
+  border: 0.5px dotted magenta;
+  /* padding: 2em; */
+  margin: 0 auto;
+  width: 50vw;
+  text-align: center;
 }
 
 .reference {
-    border: 0.5px dotted limegreen;
+  border: 0.5px dotted limegreen;
+  color: #fdd017;
 }
 
 .contact {
-    border: 0.5px dotted whitesmoke;
+  border: 0.5px dotted whitesmoke;
 }

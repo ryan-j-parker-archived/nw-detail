@@ -11,6 +11,12 @@
   --green: #5b7553;
   --brown: #523a34;
   --blue: #547aa5;
+
+  --gold: #fdd017;
+  --violet: #241e4e;
+  --dark-red: #960200;
+  --cyan: #4ba3c3;
+  --light-blue: #cce6f4;
 }
 
 * {
@@ -21,7 +27,12 @@
 
 .App {
   text-align: center;
-  background: #161516;
+  /* background: #161516; */
+  background: url('/public/portland-mt-hood.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
   /* height: 100vh; */
   font-family: 'Bree Serif', sans-serif;
   /* overflow-x: hidden; */
@@ -194,14 +205,21 @@
   text-align: center;
 }
 
-ul li {
+/* ul li {
   position: relative;
   text-align: left;
   left: 50px;
-}
+} */
 
 .logo-box {
-  margin: 20px;
+  margin: 5px;
+  /* background: #000; */
+  /* padding-bottom: -20px; */
+  padding: 0;
+  margin: 0;
+  height: 40vw;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
 }
 
 .logo {
@@ -226,5 +244,17 @@ ul li {
   /* grid-template-columns: 1fr 1fr; */
   margin: auto;
 
-  border: 0.25px dotted pink;
+  /* border: 0.25px dotted pink; */
+}
+
+/* form {
+  background: #000;
+  border-radius: 15px;
+} */
+
+.line {
+  border-bottom: 0.5px dotted white;
+  margin: 10px;
+  margin-top: -10px;
+  box-shadow: 0 -30px 90px 25px #fdd017;
 }

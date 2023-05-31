@@ -1,9 +1,17 @@
 .image-box {
   position: relative;
-  /* width: 100%; */
   width: auto;
   text-align: center;
   height: 400px;
+  background: rgb(255, 255, 255, 0.3);
+  margin: 10px;
+  margin-top: 100px;
+  left: 0;
+  display: flex;
+  border-radius: 20px;
+  -webkit-backdrop-filter: blur(5px);
+  backdrop-filter: blur(5px);
+  z-index: 2;
 }
 
 .images {
@@ -11,5 +19,14 @@
   width: 100%;
   height: 100%;
   object-fit: contain;
-  border: 0.5px dotted #44b6b6;
+  text-align: center;
+  /* border: 0.5px dotted #44b6b6; */
+}
+
+.previous-work {
+  color: black;
+  position: relative;
+  top: 100px;
+  font-size: 2rem;
+  font-family: 'aurea-ultra';
 }

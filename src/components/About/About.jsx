@@ -12,10 +12,25 @@ export default function About() {
         expertise directly to you. With over 13 years of experience, we provide comprehensive
         detailing services for boats, cars, RVs, and more, whether in or out of the water.
       </p>
-      <p className="call">
-        Are you looking to restore your boat or prepare it for sale? Allow us to make your boat
-        truly shine and stand out with our meticulous detailing service.
-      </p>
+      {/* <div className="call">
+        <img className="q-mark" src="/question-mark.svg" alt="question mark" />
+        <p className="call-text">
+          Whether you&apos;re looking to restore your boat, prepare it for sale, or getting it ready
+          for the season, allow us to make your boat truly shine and stand out with our meticulous
+          detailing service!
+        </p> */}
+      {/* <p className="call-text1">
+          <span className="detail-reason">Restoring your boat?</span>
+          <br />
+          <span className="detail-reason">Preparing for sale?</span>
+          <br />
+          <span className="detail-reason">Getting ready for the season?</span>
+          <br />
+        </p>
+        <p className="call-text2">
+          Let us make your boat truly shine and stand out with our meticulous detailing service!
+        </p> */}
+      {/* </div> */}
     </div>
   );
 }
