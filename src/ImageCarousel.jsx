@@ -65,7 +65,7 @@ export default function ImageCarousel() {
     return () => {
       clearInterval(timer);
     };
-  }, [sourceIndex]);
+  }, [sourceIndex, images.length]);
 
   return (
     <>
