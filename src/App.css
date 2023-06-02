@@ -35,7 +35,7 @@
   background-attachment: fixed;
   /* height: 100vh; */
   font-family: 'Bree Serif', sans-serif;
-  /* overflow-x: hidden; */
+  overflow-x: hidden;
   box-sizing: border-box;
 }
 
@@ -182,6 +182,7 @@
 .specialties {
   color: white;
   width: 50vw;
+  font-size: 1.4rem;
   margin: 0 auto;
   text-align: center;
 }
@@ -250,13 +251,6 @@
   border-radius: 15px;
 } */
 
-.line {
-  border-bottom: 0.5px dotted white;
-  margin: 10px;
-  margin-top: -10px;
-  box-shadow: 0 -30px 90px 25px #fdd017;
-}
-
 .phone-number {
   color: lightskyblue;
   font-size: 3rem;
@@ -264,4 +258,25 @@
   position: relative;
   top: -80px;
   text-shadow: 0 0 5px #909090;
+}
+
+.line {
+  margin: 10px;
+  margin-top: -10px;
+  box-shadow: 0 -30px 90px 25px #fdd017;
+}
+
+.line-break {
+  position: relative;
+  top: -5px;
+  margin: auto 35px;
+  /* padding: 50px; */
+  margin-top: -10px;
+  box-shadow: 0 10px 1px 5px #1b1b1b95;
+}
+
+.line2 {
+  margin: 10px;
+  margin-top: -10px;
+  box-shadow: 0 -30px 90px 25px #fdd017;
 }

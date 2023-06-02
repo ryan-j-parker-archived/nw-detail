@@ -49,7 +49,6 @@
 }
 
 .welcome {
-  border: 0.5px dotted coral;
   margin: auto 20px;
   /* background-color: #; */
   -webkit-backdrop-filter: blur(5px);

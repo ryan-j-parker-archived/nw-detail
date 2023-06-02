@@ -35,10 +35,12 @@ function App() {
         <div className="line" />
         <About />
         <div className="line" />
+        <div className="line-break" />
         <RestoreReady />
       </div>
       <div className="bottom-box">
         <ImageCarousel />
+        <div className="line-break line2" />
         <Specialize />
         <Packages />
         <Ceramic />

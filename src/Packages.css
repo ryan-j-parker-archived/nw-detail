@@ -23,17 +23,21 @@
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
+  position: relative;
+  top: 100px;
 }
 
 .card {
   border: 1px solid #000;
-  background: #000;
+  background: #343434bb;
   color: #fff;
   padding: 15px;
   margin: 10px;
   width: 300px;
   box-shadow: 0 4px 8px 4px rgba(255, 255, 255, 0.2);
   transition: 0.3s;
+  -webkit-backdrop-filter: blur(5px);
+  backdrop-filter: blur(5px);
 }
 
 .card:hover {
@@ -44,6 +48,7 @@
   font-size: 24px;
   font-weight: bold;
   margin-bottom: 10px;
+  color: #fdd017;
 }
 
 .card-priceRange {
@@ -57,11 +62,12 @@
 
 .price {
   /* Add your specific styles for price */
-  color: red;
+  color: rgb(234, 108, 108);
+  font-size: 1.2rem;
   font-weight: bold;
 }
 
 .remaining-text {
   /* Add your specific styles for the remaining text */
-  color: blue;
+  color: rgb(114, 114, 255);
 }
