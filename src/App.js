@@ -31,8 +31,10 @@ function App() {
         <div className="logo-box">
           <Logo />
         </div>
+        <div className="phone-number">971-712-9498</div>
         <div className="line" />
         <About />
+        <div className="line" />
         <RestoreReady />
       </div>
       <div className="bottom-box">

@@ -25,12 +25,18 @@
   position: relative;
   padding: 10px 20px;
   /* margin: 20px; */
+  top: 20px;
   left: 50%;
   transform: translateX(-50%);
-  border: 1px solid #000;
+  border: 1px solid #cee6f4;
   border-radius: 5px;
   box-shadow: 3px 3px 12px -4px #fff;
-  background: #fdd017;
+  text-shadow: 1px 1px 3px black;
+  /* background: rgba(253, 207, 23, 0.1); */
+  background: #cee6f436;
+  -webkit-backdrop-filter: blur(25px);
+  backdrop-filter: blur(25px);
+  color: #fdd017;
 }
 
 .spec-card-title {

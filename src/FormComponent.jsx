@@ -68,7 +68,7 @@ function FormComponent() {
   };
 
   return (
-    <form className="form" onSubmit={handleSubmit}>
+    <form className="form" onSubmit={handleSubmit} id="contact">
       <label>Name:</label>
       <input type="text" value={name} onChange={(e) => setName(e.target.value)} />
       <label>Phone number:</label>

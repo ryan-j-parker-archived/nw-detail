@@ -1,13 +1,19 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import './Navbar.css';
 
 function Navbar() {
+  const [open, setOpen] = useState(false);
   return (
     <div className="navbar">
-      <a href="#services">About</a>
-      <a href="#packages">Services</a>
-      <a href="#contact">Contact</a>
+      <button className="navbar-toggler" onClick={() => setOpen(!open)}>
+        ☰
+      </button>
+      <div className={`navbar-menu ${open ? 'open' : ''}`}>
+        <a href="#services">[ About ]</a>
+        <a href="#packages">[ Services ]</a>
+        <a href="#contact">[ Request a quote! ]</a>
+      </div>
     </div>
   );
 }
