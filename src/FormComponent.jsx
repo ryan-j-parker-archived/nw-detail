@@ -68,43 +68,48 @@ function FormComponent() {
   };
 
   return (
-    <form className="form" onSubmit={handleSubmit} id="contact">
-      <label>Name:</label>
-      <input type="text" value={name} onChange={(e) => setName(e.target.value)} />
-      <label>Phone number:</label>
-      <input
-        type="tel"
-        pattern="\([0-9]{3}\) [0-9]{3}-[0-9]{4}"
-        value={phoneNumber}
-        onChange={(e) => setPhoneNumber(e.target.value)}
-      />
-      <div className="radio">
-        Type of vehicle:
-        <label>RV</label>
-        <input
-          type="radio"
-          value="RV"
-          checked={vehicleType === 'RV'}
-          onChange={(e) => setVehicleType(e.target.value)}
-        />
-        <label>Boat</label>
-        <input
-          type="radio"
-          value="Boat"
-          checked={vehicleType === 'Boat'}
-          onChange={(e) => setVehicleType(e.target.value)}
-        />
+    <>
+      <div className="request-form">
+        <p className="quote-request">Request a quote!</p>
+        <form className="form" onSubmit={handleSubmit} id="contact">
+          <label>Name:</label>
+          <input type="text" value={name} onChange={(e) => setName(e.target.value)} />
+          <label>Phone number:</label>
+          <input
+            type="tel"
+            pattern="\([0-9]{3}\) [0-9]{3}-[0-9]{4}"
+            value={phoneNumber}
+            onChange={(e) => setPhoneNumber(e.target.value)}
+          />
+          <div className="radio">
+            Type of vehicle:
+            <label>RV</label>
+            <input
+              type="radio"
+              value="RV"
+              checked={vehicleType === 'RV'}
+              onChange={(e) => setVehicleType(e.target.value)}
+            />
+            <label>Boat</label>
+            <input
+              type="radio"
+              value="Boat"
+              checked={vehicleType === 'Boat'}
+              onChange={(e) => setVehicleType(e.target.value)}
+            />
+          </div>
+          <label>Vehicle length:</label>
+          <input
+            type="number"
+            value={vehicleLength}
+            onChange={(e) => setVehicleLength(e.target.value)}
+            min="0"
+          />
+          ft.
+          <button type="submit">Submit</button>
+        </form>
       </div>
-      <label>Vehicle length:</label>
-      <input
-        type="number"
-        value={vehicleLength}
-        onChange={(e) => setVehicleLength(e.target.value)}
-        min="0"
-      />
-      ft.
-      <button type="submit">Submit</button>
-    </form>
+    </>
   );
 }
 

@@ -14,4 +14,7 @@
 }
 
 .ceramic {
+  position: relative;
+  top: `50px;
+  color: white;
 }
