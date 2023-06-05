@@ -53,10 +53,19 @@ function FormComponent() {
   const [vehicleType, setVehicleType] = useState('');
   const [vehicleLength, setVehicleLength] = useState('');
 
+  const handlePhoneNumberChange = (event) => {
+    let input = event.target.value;
+    let numbers = input.replace(/\D/g, '');
+    let match = numbers.match(/^(\d{1,3})(\d{0,3})(\d{0,4})$/);
+    let formatted = `${match[1] ? '(' + match[1] : ''}${match[2] ? ') ' + match[2] : ''}${
+      match[3] ? '-' + match[3] : ''
+    }`;
+    setPhoneNumber(formatted);
+  };
+
   const handleSubmit = (event) => {
     event.preventDefault();
     console.log('Form data:', { name, phoneNumber, vehicleType, vehicleLength });
-    // Handle form submission here
     emailjs.sendForm('service_i70vkk5', 'template_ey1rxy2', event.target, 'xKFk6ZSEiYrwgvG7V').then(
       (result) => {
         console.log(result.text);
@@ -65,6 +74,11 @@ function FormComponent() {
         console.log(error.text);
       }
     );
+    setName('');
+    setPhoneNumber('');
+    setVehicleType('');
+    setVehicleLength('');
+    alert('Your request has been sent. <br /> We look forward to working with you!');
   };
 
   return (
@@ -73,16 +87,22 @@ function FormComponent() {
         <p className="quote-request">Request a quote!</p>
         <form className="form" onSubmit={handleSubmit} id="contact">
           <label>Name:</label>
-          <input type="text" value={name} onChange={(e) => setName(e.target.value)} />
+          <input
+            type="text"
+            value={name}
+            name="client_name"
+            onChange={(e) => setName(e.target.value)}
+          />
           <label>Phone number:</label>
           <input
             type="tel"
             pattern="\([0-9]{3}\) [0-9]{3}-[0-9]{4}"
             value={phoneNumber}
-            onChange={(e) => setPhoneNumber(e.target.value)}
+            name="client_phone"
+            onChange={handlePhoneNumberChange}
           />
+          {/* <p className="type-vehicle">Type of vehicle:</p>
           <div className="radio">
-            Type of vehicle:
             <label>RV</label>
             <input
               type="radio"
@@ -105,8 +125,17 @@ function FormComponent() {
             onChange={(e) => setVehicleLength(e.target.value)}
             min="0"
           />
-          ft.
-          <button type="submit">Submit</button>
+          ft. */}
+          <label>Message:</label>
+          <textarea
+            name="client_message"
+            placeholder="Please include the type of vehicle and length."
+            cols={32}
+            rows={10}
+          />
+          <button className="submit-button" type="submit">
+            Submit
+          </button>
         </form>
       </div>
     </>

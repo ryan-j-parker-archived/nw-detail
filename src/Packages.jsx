@@ -1,51 +1,6 @@
 import React from 'react';
 import './Packages.css';
 
-// export default function Packages() {
-//   return (
-//     <div className="packages">
-//       <p className="detail">We offer the following packages:</p>
-//       <div className="package-list">
-//         <p>Complete Detail: $25-50 per foot, depending on the condition of your boat.</p>
-//         <ul>
-//           Boat Interior Detail: $20-25 per foot, depending on the condition of your boat. This
-//           includes:
-//           <li>Mildew and Stain Removal from Vinyl</li>
-//           <li>Cleaning and Conditioning of Vinyl Cushions and Panels</li>
-//           <li>Window Cleaning</li>
-//           <li>Cleaning of Cubbies and Cup Holders</li>
-//           <li>Carpet Vacuuming and Shampooing</li>
-//           <li>Chrome Wiping and Polishing</li>
-//         </ul>
-//         <ul>
-//           Boat Exterior Detail: $25-30 per foot, based on the condition of your boat. This includes:
-//           <li>
-//             Pressure Wash and Foam Cannon to Remove Surface Contaminants and Dirt/Debris from Rail
-//           </li>
-//           <li>Wash and Rinse</li>
-//           <li>Oxidation Removal (Compound)</li>
-//           <li>Waxing and Polishing for Shine</li>
-//         </ul>
-//       </div>
-//       <p className="custom">You can choose a complete wash and wax or customize your detail.</p>
-//     </div>
-//   );
-// }
-
-// function Card({ title, priceRange, details }) {
-//   return (
-//     <div className="card">
-//       <h3 className="card-title">{title}</h3>
-//       <p className="card-priceRange">{priceRange}</p>
-//       <ul className="card-details">
-//         {details.map((detail, index) => (
-//           <li key={index}>{detail}</li>
-//         ))}
-//       </ul>
-//     </div>
-//   );
-// }
-
 function Card({ title, priceRange, details }) {
   const price = priceRange.match(/\$\d+-\d+ per foot/)[0];
   const remainingText = priceRange.replace(price, '');

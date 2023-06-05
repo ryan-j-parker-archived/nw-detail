@@ -1,15 +1,27 @@
 .footer {
-  /* padding: 2em; */
   margin: 0 auto;
-  width: 50vw;
+  width: -moz-fit-content;
+  width: fit-content;
   position: relative;
   top: 180px;
   text-align: center;
+  background: #fdd01720;
+  -webkit-backdrop-filter: blur(15px);
+  backdrop-filter: blur(15px);
+  padding: 20px;
+  font-size: 1.2rem;
 }
 
 .reference {
   color: #fdd017;
 }
 
-.contact {
+.telephone-number {
+  color: #cce6f4;
+  font-size: 3.4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'aurea-ultra';
+  text-shadow: 1px 1px 3px var(--dark-red);
 }

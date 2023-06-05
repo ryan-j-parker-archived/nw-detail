@@ -1,21 +1,3 @@
-/* .specialize {
-  width: 100%;
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  align-items: center;
-}
-
-.spec {
-    border: 0.5px dotted brown;
-}
-
-.specialties {
-    border: 0.5px dotted orange;
-
-} */
-
 .spec-card {
   width: -moz-fit-content;
   width: fit-content;
@@ -24,19 +6,15 @@
   text-align: center;
   position: relative;
   padding: 10px 20px;
-  /* margin: 20px; */
   top: 50px;
   left: 50%;
   transform: translateX(-50%);
-  /* border: 1px solid #cce6f4; */
   border-radius: 15px;
   box-shadow: 3px 3px 22px -4px #fff;
   text-shadow: 1px 1px 3px black;
-  /* background: rgba(253, 207, 23, 0.1); */
   background: #cee6f436;
   -webkit-backdrop-filter: blur(25px);
   backdrop-filter: blur(25px);
-  /* color: #fdd017; */
   color: #cce6f4;
   font-size: 1.4rem;
 }
