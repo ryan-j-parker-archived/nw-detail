@@ -10,6 +10,7 @@ import FooterContact from './FooterContact';
 import Navbar from './Navbar';
 import ImageCarousel from './ImageCarousel';
 import RestoreReady from './RestoreReady';
+import Footer from './Footer';
 
 function App() {
   return (
@@ -34,6 +35,7 @@ function App() {
         <Ceramic />
         <FooterContact />
         <FormComponent />
+        <Footer />
       </div>
     </div>
   );

@@ -9,9 +9,16 @@ function Navbar() {
         ☰
       </button>
       <div className={`navbar-menu ${open ? 'open' : ''}`}>
-        <a href="#services">About</a>
-        <a href="#packages">Services</a>
-        <a href="#contact">Request a quote!</a>
+        {/* <div className={`navbar-links ${open ? 'open' : ''}`}> */}
+        <a className="navbar-link" href="#about">
+          About
+        </a>
+        <a className="navbar-link" href="#packages">
+          Services
+        </a>
+        <a className="navbar-link" href="#contact">
+          Request a quote!
+        </a>
       </div>
     </div>
   );

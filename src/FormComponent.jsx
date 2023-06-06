@@ -78,30 +78,31 @@ function FormComponent() {
     setPhoneNumber('');
     setVehicleType('');
     setVehicleLength('');
-    alert('Your request has been sent. <br /> We look forward to working with you!');
+    alert('Your request has been sent. We look forward to working with you!');
   };
 
   return (
     <>
-      <div className="request-form">
-        <p className="quote-request">Request a quote!</p>
-        <form className="form" onSubmit={handleSubmit} id="contact">
-          <label>Name:</label>
-          <input
-            type="text"
-            value={name}
-            name="client_name"
-            onChange={(e) => setName(e.target.value)}
-          />
-          <label>Phone number:</label>
-          <input
-            type="tel"
-            pattern="\([0-9]{3}\) [0-9]{3}-[0-9]{4}"
-            value={phoneNumber}
-            name="client_phone"
-            onChange={handlePhoneNumberChange}
-          />
-          {/* <p className="type-vehicle">Type of vehicle:</p>
+      <div className="form-box">
+        <div className="request-form">
+          <p className="quote-request">Request a quote!</p>
+          <form className="form" onSubmit={handleSubmit} id="contact">
+            <label>Name:</label>
+            <input
+              type="text"
+              value={name}
+              name="client_name"
+              onChange={(e) => setName(e.target.value)}
+            />
+            <label>Phone number:</label>
+            <input
+              type="tel"
+              pattern="\([0-9]{3}\) [0-9]{3}-[0-9]{4}"
+              value={phoneNumber}
+              name="client_phone"
+              onChange={handlePhoneNumberChange}
+            />
+            {/* <p className="type-vehicle">Type of vehicle:</p>
           <div className="radio">
             <label>RV</label>
             <input
@@ -126,17 +127,18 @@ function FormComponent() {
             min="0"
           />
           ft. */}
-          <label>Message:</label>
-          <textarea
-            name="client_message"
-            placeholder="Please include the type of vehicle and length."
-            cols={32}
-            rows={10}
-          />
-          <button className="submit-button" type="submit">
-            Submit
-          </button>
-        </form>
+            <label>Message:</label>
+            <textarea
+              name="client_message"
+              placeholder="Please include the type of vehicle and length."
+              cols={32}
+              rows={10}
+            />
+            <button className="submit-button" type="submit">
+              Submit
+            </button>
+          </form>
+        </div>
       </div>
     </>
   );

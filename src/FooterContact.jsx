@@ -3,7 +3,7 @@ import './FooterContact.css';
 
 export default function FooterContact() {
   return (
-    <div className="footer">
+    <div className="footer-ref">
       <p className="reference">
         We are proud of our work and have references available upon request.
       </p>
