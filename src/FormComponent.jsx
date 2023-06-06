@@ -87,15 +87,17 @@ function FormComponent() {
         <div className="request-form">
           <p className="quote-request">Request a quote!</p>
           <form className="form" onSubmit={handleSubmit} id="contact">
-            <label>Name:</label>
+            <label htmlFor="client_name">Name:</label>
             <input
+              id="client_name"
               type="text"
               value={name}
               name="client_name"
               onChange={(e) => setName(e.target.value)}
             />
-            <label>Phone number:</label>
+            <label htmlFor="client_phone">Phone number:</label>
             <input
+              id="client_phone"
               type="tel"
               pattern="\([0-9]{3}\) [0-9]{3}-[0-9]{4}"
               value={phoneNumber}
@@ -127,8 +129,9 @@ function FormComponent() {
             min="0"
           />
           ft. */}
-            <label>Message:</label>
+            <label htmlFor="client_message">Message:</label>
             <textarea
+              id="client_message"
               name="client_message"
               placeholder="Please include the type of vehicle and length."
               cols={32}

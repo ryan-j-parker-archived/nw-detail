@@ -5,6 +5,7 @@ export default function Logo() {
   return (
     <div className="logo-box">
       <svg className="logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 288">
+        <title id="Northwest Detailing">Northwest Detailing</title>
         <g id="Northwest">
           <text className="cls-1" transform="translate(24.03418 96.93221)">
             <tspan className="cls-6" x="0" y="0">
