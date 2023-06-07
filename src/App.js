@@ -16,26 +16,27 @@ function App() {
   return (
     <div className="App">
       <Navbar />
-      <div className="top-box">
-        <div className="logo-box">
-          <Logo />
-        </div>
-        <div className="phone-number">971-712-9498</div>
-        <div className="line" />
-        <About />
+      {/* <div className="top-box"> */}
+      <div className="logo-box">
+        <Logo />
+      </div>
+      <div className="phone-number">971-712-9498</div>
+      <div className="line" />
+      <About />
+      <div className="bg-box">
         <div className="line" />
         <div className="line-break" />
         <RestoreReady />
-      </div>
-      <div className="bottom-box">
-        <ImageCarousel />
-        <div className="line-break line2" />
-        <Specialize />
-        <Packages />
-        <Ceramic />
-        <FooterContact />
-        <FormComponent />
-        <Footer />
+        <div className="bottom-box">
+          <ImageCarousel />
+          <div className="line-break line2" />
+          <Specialize />
+          <Packages />
+          <Ceramic />
+          <FooterContact />
+          <FormComponent />
+          <Footer />
+        </div>
       </div>
     </div>
   );

@@ -41,6 +41,10 @@
   scroll-behavior: smooth;
 }
 
+/* .bg-box {
+  background: linear-gradient(180deg, rgba(20, 162, 89, 0.95) 50%, rgba(58, 81, 255, 0.95) 50%);
+} */
+
 .nwd-title {
   display: flex;
   flex-direction: column;
