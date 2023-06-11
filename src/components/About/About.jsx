@@ -4,7 +4,7 @@ import './About.css';
 export default function About() {
   return (
     <div className="about" id="about">
-      <p className="nwd">
+      <p className="nwd-heading">
         <em>Premium Mobile Boat Detailing at Affordable Rates</em>
       </p>
       <p className="welcome">

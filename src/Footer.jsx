@@ -6,8 +6,7 @@ export default function Footer() {
     <div className="footer">
       <p className="footer-text">
         {/* <span className="footer-text"> */}
-        &copy; 2023 Northwest Detailing
-        {/* </span> */}
+        &copy; 2023 Northwest Detailing {/* </span> */}
       </p>
     </div>
   );

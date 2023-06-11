@@ -23,6 +23,7 @@ function App() {
       <div className="phone-number">971-712-9498</div>
       <div className="line" />
       <About />
+      <div className="bg-fade" />
       <div className="bg-box">
         <div className="line" />
         <div className="line-break" />

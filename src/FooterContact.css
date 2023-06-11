@@ -3,13 +3,19 @@
   width: -moz-fit-content;
   width: fit-content;
   position: relative;
-  top: 180px;
+  top: 200px;
   text-align: center;
   background: #fdd01720;
   -webkit-backdrop-filter: blur(15px);
   backdrop-filter: blur(15px);
   padding: 20px;
   font-size: 1.2rem;
+  box-shadow: 0 0 16px -4px rgba(0, 0, 0, 0.2);
+}
+
+.footer-ref:hover {
+  box-shadow: 0 0 16px -4px rgba(0, 0, 0, 0.4);
+  transition: all 0.2s ease-in-out;
 }
 
 .reference {
