@@ -1,16 +1,17 @@
 import './App.css';
 import About from './components/About/About';
 import React from 'react';
-import FormComponent from './FormComponent';
-import Logo from './Logo';
-import Specialize from './Specialize';
-import Packages from './Packages';
-import Ceramic from './Ceramic';
-import FooterContact from './FooterContact';
-import Navbar from './Navbar';
-import ImageCarousel from './ImageCarousel';
-import RestoreReady from './RestoreReady';
-import Footer from './Footer';
+import FormComponent from './components/Form/FormComponent';
+import Logo from './components/Logo/Logo';
+import Specialize from './components/MainContent/Specialize';
+import Packages from './components/MainContent/Packages';
+import Ceramic from './components/MainContent/Ceramic';
+import FooterContact from './components/Footer/FooterContact';
+import Navbar from './components/Navbar/Navbar';
+import ImageCarousel from './components/ImageCarousel/ImageCarousel';
+import RestoreReady from './components/MainContent/RestoreReady';
+import Footer from './components/Footer/Footer';
+import logo from './nw-detail-icon-simple.svg';
 
 function App() {
   return (
@@ -18,7 +19,8 @@ function App() {
       <Navbar />
       {/* <div className="top-box"> */}
       <div className="logo-box">
-        <Logo />
+        {/* <Logo /> */}
+        <img src={logo} />
       </div>
       <div className="phone-number">971-712-9498</div>
       <div className="line" />
