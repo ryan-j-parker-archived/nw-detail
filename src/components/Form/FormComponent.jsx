@@ -50,8 +50,7 @@ import './FormComponent.css';
 function FormComponent() {
   const [name, setName] = useState('');
   const [phoneNumber, setPhoneNumber] = useState('');
-  const [vehicleType, setVehicleType] = useState('');
-  const [vehicleLength, setVehicleLength] = useState('');
+  const [clientMessage, setClientMessage] = useState('');
 
   const handlePhoneNumberChange = (event) => {
     let input = event.target.value;
@@ -65,7 +64,7 @@ function FormComponent() {
 
   const handleSubmit = (event) => {
     event.preventDefault();
-    console.log('Form data:', { name, phoneNumber, vehicleType, vehicleLength });
+    console.log('Form data:', { name, phoneNumber, clientMessage });
     emailjs.sendForm('service_i70vkk5', 'template_ey1rxy2', event.target, 'xKFk6ZSEiYrwgvG7V').then(
       (result) => {
         console.log(result.text);
@@ -76,8 +75,7 @@ function FormComponent() {
     );
     setName('');
     setPhoneNumber('');
-    setVehicleType('');
-    setVehicleLength('');
+    setClientMessage('');
     alert('Your request has been sent. We look forward to working with you!');
   };
 
@@ -136,6 +134,8 @@ function FormComponent() {
               placeholder="Please include the type of vehicle and length."
               cols={32}
               rows={10}
+              value={clientMessage}
+              onChange={(e) => setClientMessage(e.target.value)}
             />
             <button className="submit-button" type="submit">
               Submit
