@@ -10,5 +10,6 @@
 .ceramic {
   position: relative;
   top: 50px;
-  color: white;
+  color: #ffcc3e;
+  background-color: #333333;
 }
