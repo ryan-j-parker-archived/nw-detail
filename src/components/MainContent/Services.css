@@ -11,5 +11,6 @@
   position: relative;
   top: 50px;
   color: #ffcc3e;
-  background-color: #333333;
+  background-color: #33333315;
+  backdrop-filter: blur(5px);
 }
